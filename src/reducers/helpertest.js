@@ -1,7 +1,7 @@
 import costumer_json from '../data/costumers.json';
 
-function createCharacter(id){
-    let costumer=costumer_json.find(c=>c.id === id )
+function createCharacter(objects){
+    let costumer=costumer_json.add(objects)
     return costumer;
 }
 

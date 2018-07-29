@@ -2,10 +2,10 @@ export const ADD_COSTUMER ='ADD_COSTUMER';
 export const REMOVE_COSTUMER ='REMOVE_COSTUMER';
 export const REMOVE_ALL ='REMOVE_ALL';
 
-export function addCharacterById(id){
+export function addCharacterById(items={}){
     const action={
         type:ADD_COSTUMER,
-        id
+        items
     }
     return action;
 }
